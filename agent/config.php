@@ -8,23 +8,13 @@ define('DIR_RDWALA', str_replace('\\', '/', realpath(DIR_APP . '../')) . '/');
 define('DIR_LANGUAGE', DIR_APP . 'language/');
 define('DIR_TEMPLATE', DIR_APP . 'view/template/');
 
-//define('MESSAGE_SERVICE_URL','http://203.92.40.186:8443/Sun3/Send_SMS2x?'); 
-define('MESSAGE_SERVICE_URL','http://www.smsjust.com/blank/sms/user/urlsms.php?');
-//define('USER','testuser');
-//define('PASSWORD','testuser');
-//define('SENDERID','MCALRT');
-
-define('USER','buybye');
-define('PASSWORD','buybye@admin');
-define('SENDERID','BBPAPR');
-
 // DB
 
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'applmind');
-define('DB_PASSWORD', 'manishkl');
-define('DB_DATABASE', 'applmind_rdw');
+define('DB_USERNAME', 'username');
+define('DB_PASSWORD', 'password');
+define('DB_DATABASE', 'databasename');
 
 /*define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
