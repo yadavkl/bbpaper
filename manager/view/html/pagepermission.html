@@ -1,0 +1,52 @@
+<div class="container" >
+<h2>Page Permission</h2> 
+   
+<table class="table table-responsive table-striped table-hover table-bordered">
+ <div class="from-control">
+  
+	<select name="role" ng-model="permission.role_name" ng-change="onRoleChange(permission.role_name)"   required="required" >
+	
+		<option value="">--Select--</option>
+		<option ng-repeat="permission in role"  id="{{permission.role_id}}">{{permission.role_name}}</option>
+		
+	</select>
+	
+	<div class="form-control">
+     <tr>
+     <th>Page ID</th>
+     <th>Page Name</th>
+     <th>Edit</th>
+     <th>View</th>
+     <th>Delete</th>
+    </tr>
+    
+    <tr ng-repeat="order in pages" >
+    	
+        <td>{{order.Page_id}}</td>
+        <td>{{order.Page_name}}</td>
+		
+        <td><input  type="checkbox" id="{{order.Page_id}}" ng-model ="order.Edit"  
+		ng-checked="order.Edit == '1'" ng-true-value="'1'"  ng-false-value="'0'"  value="{{order.Edit}}"  name="edit"    ></td>
+        <td><input  type="checkbox" id="{{order.Page_id}}" ng-model ="order.View" ng-checked="order.View == '1'" name="view"  ng-true-value="'1'"  ng-false-value="'0'"></td>
+        <td><input  type="checkbox" id="{{order.Page_id}}" ng-model ="order.sDelete" ng-checked="order.sDelete == '1'" name="deletee" ng-true-value="'1'"  ng-false-value="'0'" ></td>
+		
+  </tr>
+	
+
+	
+    </div>
+</table>
+
+
+<div class="col-lg-10 col-lg-offset-2">
+	<button class="btn btn-primary btn-block" ng-click="onSubmit()">Submit</button>
+</div>
+
+
+
+</div>
+<script type="text/javascript">
+
+    
+</script>
+

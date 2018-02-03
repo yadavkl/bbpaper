@@ -1,0 +1,71 @@
+<div class="container">
+      <form class="form-horizontal" action="?route=register/agent" method="post">
+          <fieldset>
+            <h2 >Register Agent</h2>
+            <div class="form-group">
+              <label for="inputName" class="col-lg-2 control-label">Name</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" name="name" required placeholder="Enter Full Name" required >
+              </div>
+            </div>
+  
+              <div class="form-group">
+                  <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                  <div class="col-lg-10">
+                      <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email Address" required>
+                  </div>
+              </div>
+            <div class="form-group">
+                  <label for="inputNumber" class="col-lg-2 control-label">Number</label>
+                  <div class="col-lg-10">
+                      <input type="text" class="form-control" ng-minlength="10" ng-maxlength="10"  id="phone" name="phone" placeholder="Enter Phone Number" required>
+                  </div>
+            </div>
+           <div class="form-group">
+                  <label for="inputNumber" class="col-lg-2 control-label">Date of Birth</label>
+                  <div class="col-lg-10">
+                      <input type="date" class="form-control" id="year" placeholder="Date of Birth" required>
+                  </div>
+            </div>
+               <div class="form-group">
+                  <label for="inputNumber" class="col-lg-2 control-label">Age</label>
+                  <div class="col-lg-10">
+                      <input type="text" class="form-control" name="age" id="age" placeholder="Age" onfocus="return run();" readonly required>
+                  </div>
+            </div>
+              <div class="form-group">
+                  <label for="inputNumber" class="col-lg-2 control-label">Area</label>
+                  <div class="col-lg-10" class="form-control">
+                    <select>
+                        <option class="form-control col-lg-10" ng-repeat="area in areas" value="" name="area.areaid" required>{{area.areaid}} - {{area.areaname}}</option>
+                    </select>
+                      
+                  </div>
+            </div>
+            <div class="form-group">
+                  <label for="inputNumber" class="col-lg-2 control-label">Photo</label>
+                  <div class="col-lg-10" class="form-control">
+                      <input type="file"  accept="image/*" name="image" id="photo" placeholder="Upload Photo" required>
+                  </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="col-lg-10 col-lg-offset-2">
+
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+</div>
+<script>
+                function run()
+                {
+                    // Calculate Age
+                var a = document.getElementById('year').value;
+                var year = parseInt(a);
+                var now = new Date().getFullYear();
+                var age = now-year;
+                document.getElementById('age').value= age;
+                }
+        </script>

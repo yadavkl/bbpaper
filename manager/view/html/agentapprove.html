@@ -1,0 +1,34 @@
+<div class="container" >
+<h2>Agent Info</h2>  
+    <div class="row">  
+        <div class="form-group col-lg-4">                 
+                      <input class="form-control" type="text" name="input" ng-modal="searchText.agentid" 
+     placeholder="Search by ID" />
+                   </div> 
+          <div class="form-group col-lg-4">                 
+                      <input class="form-control" type="text" name="input" ng-modal="searchText.name"
+     placeholder="Search by Name" />
+                   </div> 
+      
+
+<table class="table table-responsive table-striped table-hover table-bordered">
+     <tr>
+     <th>Agent ID</th>
+     <th>Agent Name</th>
+     <th>Agent Phone</th>
+     <th>Agent Email</th>
+      <th>Action</th>
+  </tr>
+    <tr ng-repeat="agent in agents | filter:searchText">
+        <td>{{agent.agentid}}</td>
+        <td>{{agent.name}}</td>
+        <td>{{agent.phone}}</td>
+        <td>{{agent.email}}</td> 
+        <td>
+         <button ng-show="{{area.working}} === 0"  ng-click="approval(area.areaid)"class="btn btn-success">Approve</button> 
+         <button ng-show="{{area.working}} === 1"  ng-click="approval(area.areaid)"class="btn btn-danger">Reject</button> </td>         
+    </tr>
+
+</table>
+
+</div>

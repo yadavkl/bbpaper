@@ -1,0 +1,94 @@
+<div class="container">
+
+      <form class="form-horizontal" action="?route=order/create" method="post">
+         <fieldset>
+               <h2> Create Order</h2>  
+            </fieldset>
+
+              <div class="form-group">
+                  <label for="InputName" class="col-lg-2 control-label">Name</label>
+                  <div class="col-lg-5">
+                      <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Enter First Name">
+                  </div>
+                  <div class="col-lg-5">
+                      <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Enter Last Name">
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="InputPhone" class="col-lg-2 control-label">Phone</label>
+                  <div class="col-lg-10">
+                      <input type="number" class="form-control" name="mobile" id="mobile" placeholder="Enter Customer Phone" required>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="InputEmail" class="col-lg-2 control-label">Email</label>
+                  <div class="col-lg-10">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Enter Customer Email" >
+                  </div>
+              </div>
+                
+              <div class="container">
+                <h5> Enter Address</h5>
+              </div>
+              <div class="form-group">
+                  <label for="InputHouse" class="col-lg-2 control-label">House Number</label>
+                  <div class="col-lg-10">
+                      <input type="number" class="form-control" name="houseno" id="houseno" placeholder="Enter House Number" required>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="InputStreet" class="col-lg-2 control-label">Street Name</label>
+                  <div class="col-lg-10">
+                      <input type="text" class="form-control" name="street" id="street" placeholder="Enter Street Name" required>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="InputName" class="col-lg-2 control-label">Location</label>
+                  <div class="col-lg-10">
+                      <input type="text" class="form-control" name="location" id="location" placeholder="Enter Location" required>
+                  </div>
+              </div>
+
+          
+               <div class="form-group">
+                  <label for="InputArea" class="col-lg-2 control-label">Area</label>
+                    <div class="col-lg-10">
+                     <select class="form-control" name="areaid" id="areaid"  ng-model="selectedareaid" ng-change="onAreaChange()" required>
+                            <option class="form-control col-lg-10" ng-repeat="area in areas" value="{{area.areaid}}:{{area.areaname}}" name="areaid" id="areaid">{{area.areaname}}</option>
+                    </select>
+                    </div>
+              </div>
+              <div class="form-group">
+                  <label for="InputArea" class="col-lg-2 control-label">Booking Date</label>
+                    <div class="col-lg-10" >
+                     <select class="form-control" ng-model="selecteddate" name="date" id="date" ng-change="onChange()" required>
+                         <option class="form-control col-lg-10" value="" selected="true" disabled="true">--Select Date--</option>
+                        <option class="form-control col-lg-10" value="{{bookings.tomorrow}}">{{bookings.tomorrow}}</option>
+                        <option class="form-control col-lg-10" value="{{bookings.nextday}}">{{bookings.nextday}}</option>
+                        <option class="form-control col-lg-10" value="{{bookings.nexttonext}}">{{bookings.nexttonext}}</option>
+                    </select>
+                    </div>
+              </div>
+              <div class="form-group">
+                  <label for="inputNumber" class="col-lg-2 control-label">Booking Slot</label>
+                  <div class="col-lg-10" class="form-control">
+                     <select class="form-control" name="slot" id="slot">
+                        <option class="form-control col-lg-10" ng-repeat="slot in slots" value="{{slot.slot}}"  required>{{slot.slot}}</option>
+                    </select>
+                      
+                  </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="col-lg-10 col-lg-offset-2">
+
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+</div>

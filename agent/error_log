@@ -1,0 +1,76 @@
+[27-Sep-2015 07:44:25 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[27-Sep-2015 07:44:25 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[27-Sep-2015 10:58:15 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[27-Sep-2015 10:58:15 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[01-Oct-2015 02:13:05 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[01-Oct-2015 02:13:05 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[02-Oct-2015 06:19:51 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[02-Oct-2015 06:19:51 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[12-Oct-2015 01:29:45 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[12-Oct-2015 01:29:45 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[18-Oct-2015 03:01:44 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[18-Oct-2015 03:01:44 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[21-Oct-2015 03:30:52 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[21-Oct-2015 03:30:52 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[25-Oct-2015 03:18:47 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[25-Oct-2015 03:18:47 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[26-Oct-2015 01:24:42 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[26-Oct-2015 01:24:42 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[27-Oct-2015 08:26:29 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[27-Oct-2015 08:26:29 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[28-Oct-2015 03:17:42 Etc/GMT] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[28-Oct-2015 03:17:42 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[29-Oct-2015 08:02:10 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[29-Oct-2015 08:02:10 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[31-Oct-2015 08:28:48 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[31-Oct-2015 08:28:48 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[01-Nov-2015 08:23:46 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[01-Nov-2015 08:23:46 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[05-Nov-2015 08:12:33 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[05-Nov-2015 08:12:33 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[07-Nov-2015 09:58:09 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[07-Nov-2015 09:58:09 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[09-Nov-2015 08:06:18 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[09-Nov-2015 08:06:18 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[11-Nov-2015 06:45:56 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[11-Nov-2015 06:45:56 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[18-Nov-2015 17:56:29 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[18-Nov-2015 17:56:29 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[22-Nov-2015 07:25:43 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[22-Nov-2015 07:25:43 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[25-Nov-2015 08:02:18 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[25-Nov-2015 08:02:18 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[02-Dec-2015 08:18:02 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[02-Dec-2015 08:18:02 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[02-Dec-2015 12:34:21 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[02-Dec-2015 12:34:21 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[03-Dec-2015 09:33:01 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[03-Dec-2015 09:33:01 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[05-Dec-2015 07:39:53 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[05-Dec-2015 07:39:53 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[06-Dec-2015 08:52:29 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[06-Dec-2015 08:52:29 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[13-Dec-2015 08:25:11 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[13-Dec-2015 08:25:11 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[20-Dec-2015 08:22:41 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[20-Dec-2015 08:22:42 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[26-Dec-2015 08:36:58 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[26-Dec-2015 08:36:58 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[26-Dec-2015 15:38:21 Asia/Calcutta] PHP Notice:  Undefined variable: data in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 71
+[26-Dec-2015 15:38:21 Asia/Calcutta] PHP Notice:  Undefined index: firstname in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 77
+[26-Dec-2015 15:38:21 Asia/Calcutta] PHP Notice:  Undefined index: lastname in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 77
+[26-Dec-2015 15:38:21 Asia/Calcutta] PHP Notice:  Undefined variable: data in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 77
+[26-Dec-2015 15:38:21 Asia/Calcutta] PHP Notice:  Undefined index: mobile in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 78
+[30-Dec-2015 08:35:15 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[30-Dec-2015 08:35:15 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[30-Dec-2015 08:35:17 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[30-Dec-2015 08:35:17 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[01-Jan-2016 08:35:36 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[01-Jan-2016 08:35:37 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[02-Jan-2016 06:43:47 Asia/Calcutta] PHP Notice:  Error: Unknown column '' in 'field list'<br />Error No: 1054<br />UPDATE rdw_slot SET ``=``- 1 WHERE slotdate='2016-01-01' AND areaid='1' in /home/applmind/public_html/rdwala/system/library/db/mysqli.php on line 41
+[03-Jan-2016 09:40:29 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[03-Jan-2016 09:40:29 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[04-Jan-2016 09:43:30 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[04-Jan-2016 09:43:30 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106
+[13-Jan-2016 10:56:51 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 102
+[13-Jan-2016 10:56:51 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/applmind/public_html/rdwala/agent/controller/register/agent.php on line 106

@@ -1,0 +1,44 @@
+<div class="container" >
+<h2>Agent Info</h2>  
+ <div class="row">  
+        <div class="form-group col-lg-3">                 
+                      <input class="form-control" type="text" name="input" ng-model="search.agentid"
+     placeholder="Search by agentid" />
+                   </div> 
+         <!--   <div class="form-group col-lg-3">                 
+                    <input class="form-control" type="text" name="input" ng-model="search.cdate"
+     placeholder="Search by Week" /> 
+                   </div> 
+          <div class="form-group col-lg-3">                 
+                      <input class="form-control" type="text" name="input" ng-model="search.cdate"
+     placeholder="Search by Month" />
+                   </div> -->
+         <div class="form-group col-lg-3">                 
+                      <input class="form-control" type="text" name="input" ng-model="search.name"
+     placeholder="Search nane" />
+                   </div> 
+         </div>
+
+<table class="table table-responsive table-striped table-hover table-bordered">
+     <tr>
+     <th>Agent ID</th>
+     <th>Agent Name</th>
+     <th>Agent Phone</th>
+     <th>Agent Email</th>
+     <th>Agent Image</th>
+     <th>Remove Agent</th>
+  </tr>
+    <tr ng-repeat="agent in agents | filter:search">
+        <td>{{agent.agentid}}</td>
+        <td>{{agent.name}}</td>
+        <td>{{agent.phone}}</td>
+        <td>{{agent.email}}</td>
+        <td><img ng-src="images/{{order.image}}" height="40" width="40" ></td>
+        <td>
+        <button ng-show="{{agent.status}} === 0"  ng-click="Remove(agent.agentid)" class="btn btn-danger">Remove</button>
+        <button ng-show="{{agent.status}} === 1"  ng-click="Remove(agent.agentid)" class="btn btn-success">Approve</button></td>
+        </tr>
+
+</table>
+
+</div>

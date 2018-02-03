@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Area</h2>
+    <table class="table table-responsive table-striped table-hover table-bordered">
+     <tr>
+     <th>Area ID</th>
+     <th>Area Name</th>
+     <th>City</th>
+     <th>Status</th>
+     <th>Date Added</th> <th>Date Added</th>
+     </tr>
+
+ 
+       <tr ng-repeat="area in areas">
+         <td>{{area.areaid}}</td>
+         <td>{{area.areaname}}</td>
+         <td>{{area.areaname}}</td>
+         <td>{{area.working}}</td>
+         <td>{{area.areadate}}</td>
+         <td>
+         <button ng-show="{{area.working}} === 0"  ng-click="Change(area.areaid)"class="btn btn-success">Change</button> 
+         <button ng-show="{{area.working}} === 1"  ng-click="Change(area.areaid)"class="btn btn-danger">Change</button> </td>
+        </tr>
+</table>
+
+</div>
